@@ -46,4 +46,42 @@ public interface GlobalConst {
      * 數據字典類型,API類
      */
     public static final String API_TYPE="APIL";
+
+    /**
+     * 角色集合
+     */
+    public static final String ROLES = "roles";
+    /**
+     * 菜單樹
+     */
+    public static final String MENUTREE = "menuTree";
+    /**
+     * 菜單集合
+     */
+    public static final String MENUS = "menus";
+
+    /**
+     * 權限集合
+     */
+    public static String AUTHS = "auths";
+    /**
+     * 全部菜單的總權限值
+     */
+    public static String AUTHVALUE = "authValue";
+
+    /**
+     * 單個菜單的權限值
+     */
+    public static String SINGLEAUTHVALUE = "singleAuthValue";
+
+    /**
+     * 按鈕權限值
+     */
+    public static String INSERT = "insert";
+    public static String UPDATE = "update";
+    public static String DELETE = "delete";
+    public static String SELECT = "select";
+    public static String CHECK = "check";
+    public static String SETROLES = "setroles";
+    public static String SETAUTHS = "setauths";
 }
